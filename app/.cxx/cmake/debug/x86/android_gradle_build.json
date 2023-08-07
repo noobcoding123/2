@@ -1,0 +1,98 @@
+{
+  "stringTable": {
+    "0": "D:/ipcam/ncnn-android-yolov8/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android24 --sysroot=C:/Users/zyh59/AppData/Local/Android/Sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dyolov8ncnn_EXPORTS -isystem D:/ipcam/ncnn-android-yolov8/app/src/main/jni/ncnn-20230223-android-vulkan/x86/include/ncnn -isystem D:/ipcam/ncnn-android-yolov8/app/src/main/jni/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-limit-debug-info -fPIC -fno-rtti -fno-exceptions -std=gnu++11",
+    "2": "--target=i686-none-linux-android24 --sysroot=C:/Users/zyh59/AppData/Local/Android/Sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dyolov8ncnn_EXPORTS -isystem D:/ipcam/ncnn-android-yolov8/app/src/main/jni/ncnn-20230223-android-vulkan/x86/include/ncnn -isystem D:/ipcam/ncnn-android-yolov8/app/src/main/jni/OpenCV-android-sdk/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-limit-debug-info -fPIC -fno-rtti -fno-exceptions"
+  },
+  "buildFiles": [
+    "C:\\Users\\zyh59\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\zyh59\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\build\\cmake\\compiler_id.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\cmake\\glslang\\glslang-config.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\cmake\\glslang\\glslang-config-version.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\cmake\\glslang\\glslang-targets.cmake",
+    "C:\\Users\\zyh59\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\zyh59\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\build\\cmake\\android-legacy.toolchain.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\cmake\\ncnn\\ncnn-release.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\jni\\abi-x86\\OpenCVModules.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\cmake\\glslang\\glslang-targets-release.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\jni\\OpenCVConfig.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\jni\\abi-x86\\OpenCVConfig.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
+    "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\jni\\abi-x86\\OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\zyh59\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\ipcam\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\zyh59\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\ipcam\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov8ncnn-Debug-x86": {
+      "buildCommand": "C:\\Users\\zyh59\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\ipcam\\ncnn-android-yolov8\\app\\.cxx\\cmake\\debug\\x86\" yolov8ncnn",
+      "buildType": "debug",
+      "toolchain": "3549880622",
+      "abi": "x86",
+      "artifactName": "yolov8ncnn",
+      "files": [
+        {
+          "src": "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\yolov8ncnn.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\yolo.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ndkcamera.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\sqlite3.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\ipcam\\ncnn-android-yolov8\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libyolov8ncnn.so",
+      "runtimeFiles": [
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\libncnn.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\x86\\libopencv_core.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\x86\\libopencv_imgproc.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\x86\\libopencv_core.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\x86\\libopencv_imgproc.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\x86\\libopencv_calib3d.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\libglslang.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\libSPIRV.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\libMachineIndependent.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\libOGLCompiler.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\libOSDependent.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\ncnn-20230223-android-vulkan\\x86\\lib\\libGenericCodeGen.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\x86\\libopencv_features2d.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\x86\\libopencv_imgproc.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\x86\\libopencv_flann.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\staticlibs\\x86\\libopencv_core.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\x86\\libtbb.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\x86\\libcpufeatures.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\x86\\libittnotify.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\x86\\libippiw.a",
+        "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\jni\\OpenCV-android-sdk\\sdk\\native\\3rdparty\\libs\\x86\\libippicv.a"
+      ]
+    }
+  },
+  "toolchains": {
+    "3549880622": {
+      "cCompilerExecutable": "C:\\Users\\zyh59\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\zyh59\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\ipcam\\ncnn-android-yolov8\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\ipcam\\ncnn-android-yolov8\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,2",
+                        "startColumns": "-1,-1,4",
+                        "startOffsets": "-1,-1,55",
+                        "endColumns": "-1,-1,61",
+                        "endOffsets": "-1,-1,112"
+                    },
+                    "to": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,164,280",
+                        "endLines": "5,9,10",
+                        "endColumns": "19,19,61",
+                        "endOffsets": "159,275,337"
+                    }
+                }
+            ]
+        }
+    ]
+}

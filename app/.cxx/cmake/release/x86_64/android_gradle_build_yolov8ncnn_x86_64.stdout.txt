@@ -1,0 +1,10 @@
+ninja: Entering directory `D:\ncnn-android-yolov8\app\.cxx\cmake\release\x86_64'
+[1/4] Building CXX object CMakeFiles/yolov8ncnn.dir/ndkcamera.cpp.o
+[2/4] Building CXX object CMakeFiles/yolov8ncnn.dir/yolov8ncnn.cpp.o
+D:/ncnn-android-yolov8/app/src/main/jni/yolov8ncnn.cpp:329:77: warning: format specifies type 'int' but the argument has type 'std::vector<Object>::size_type' (aka 'unsigned long') [-Wformat]
+    __android_log_print(ANDROID_LOG_DEBUG, "NcnnYolov8", "objects num: %d", objects.size());
+                                                                       ~~   ^~~~~~~~~~~~~~
+                                                                       %lu
+1 warning generated.
+[3/4] Building CXX object CMakeFiles/yolov8ncnn.dir/yolo.cpp.o
+[4/4] Linking CXX shared library D:\ncnn-android-yolov8\app\build\intermediates\cmake\release\obj\x86_64\libyolov8ncnn.so

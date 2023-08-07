@@ -1,0 +1,4 @@
+#Sun May 21 17:49:39 PDT 2023
+base.0=D\:\\ncnn-android-yolov8\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
